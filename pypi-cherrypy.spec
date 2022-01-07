@@ -19,7 +19,7 @@ Provides: CherryPy
 Provides: CherryPy-python
 Provides: CherryPy-python3
 BuildRequires : more-itertools
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(cheroot)
 BuildRequires : pypi(jaraco.collections)
@@ -29,7 +29,7 @@ BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(zc.lockfile)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 .. image:: https://img.shields.io/pypi/v/cherrypy.svg

@@ -4,7 +4,7 @@
 #
 Name     : pypi-cherrypy
 Version  : 18.6.1
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/c6/0d/f6acfd12f098b9f05b9146b79b5a3fad02f4047a7831b5f5c9ee3fe54d56/CherryPy-18.6.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c6/0d/f6acfd12f098b9f05b9146b79b5a3fad02f4047a7831b5f5c9ee3fe54d56/CherryPy-18.6.1.tar.gz
 Summary  : Object-Oriented HTTP framework
@@ -15,7 +15,6 @@ Requires: pypi-cherrypy-license = %{version}-%{release}
 Requires: pypi-cherrypy-python = %{version}-%{release}
 Requires: pypi-cherrypy-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : more-itertools
 BuildRequires : pypi(cheroot)
 BuildRequires : pypi(jaraco.collections)
 BuildRequires : pypi(more_itertools)
@@ -82,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1649693596
+export SOURCE_DATE_EPOCH=1649698784
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

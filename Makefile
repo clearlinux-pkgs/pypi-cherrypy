@@ -1,5 +1,5 @@
 PKG_NAME := pypi-cherrypy
-URL = https://files.pythonhosted.org/packages/c6/0d/f6acfd12f098b9f05b9146b79b5a3fad02f4047a7831b5f5c9ee3fe54d56/CherryPy-18.6.1.tar.gz
+URL = https://files.pythonhosted.org/packages/a5/b1/79bf01a1cf32407cfbefbc148d78b4d6c167550289cddd23dfead146f7a7/CherryPy-18.7.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
